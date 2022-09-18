@@ -4,8 +4,8 @@ import API_PATHS from "constants/apiPaths";
 import ProductsTable from "components/pages/admin/PageProductImport/components/ProductsTable";
 import CSVFileImport from "components/pages/admin/PageProductImport/components/CSVFileImport";
 import Button from "@material-ui/core/Button";
-import Box from "@material-ui/core/Box";
 import {Link} from "react-router-dom";
+import {Box} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   content: {
